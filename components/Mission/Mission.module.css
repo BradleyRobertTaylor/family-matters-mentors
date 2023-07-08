@@ -1,0 +1,84 @@
+.mission-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-box {
+  text-align: center;
+  color: #025373;
+  width: 100%;
+  margin-inline: auto;
+  background: white;
+  position: relative;
+  margin-bottom: 2rem;
+  /* background-image: url(../../public/images/sirisvisual-Qh6yUFl7P5E-unsplash.jpg); */
+  /* background-size: cover; */
+}
+
+.title {
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  border: 1px solid black;
+  position: absolute;
+  font-weight: 200;
+  padding: 1em 2em;
+  font-size: 0.9rem;
+  background: white;
+
+  top: -25px;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  width: fit-content;
+}
+
+.mission-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  background-clip: text;
+  background-image: linear-gradient(
+    0deg,
+    rgba(2, 83, 115, 1) 0%,
+    rgba(61, 154, 191, 1) 100%
+  );
+  color: transparent;
+}
+
+.paragraph {
+  padding-top: 3em;
+  padding-bottom: 2rem;
+  width: 65%;
+  margin-inline: auto;
+}
+
+@media (min-width: 700px) {
+  .mission-section {
+    margin-top: 10em;
+    width: 70%;
+    margin-inline: auto;
+    padding-bottom: 2em;
+  }
+
+  .mission-wrapper {
+    flex-direction: row;
+    gap: 2em;
+  }
+
+  .text-box {
+    margin-bottom: 0;
+  }
+
+  /* .paragraph { */
+  /*   padding-bottom: 4em; */
+  /*   padding-top: 4em; */
+  /* } */
+
+  .card {
+    flex: 1;
+    background: white;
+  }
+
+  .mission-title {
+    font-size: 3rem;
+  }
+}

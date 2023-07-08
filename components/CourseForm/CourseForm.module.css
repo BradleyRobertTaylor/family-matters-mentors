@@ -1,0 +1,47 @@
+.form-section {
+  padding: 36px 36px;
+  color: var(--primary-blue);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin-inline: auto;
+  gap: 1rem;
+}
+
+.two-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.form label {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  margin-right: 0.2rem;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+}
+
+.form button[type="submit"] {
+  width: 100%;
+  max-width: 300px;
+  margin-inline: auto;
+}
+
+.age-children-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

@@ -1,0 +1,51 @@
+.contact-section {
+}
+
+.form {
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.form input,
+.form textarea,
+.form label {
+  width: 100%;
+}
+
+.form h1 {
+  font-size: 2rem;
+  color: var(--primary-blue);
+}
+
+.form input,
+.form textarea {
+  padding: 10px;
+  font-family: inherit;
+  font-size: inherit;
+  border-radius: 5px;
+  border: none;
+  resize: none;
+}
+
+@media (min-width: 800px) {
+  .contact-section {
+    display: flex;
+    align-items: center;
+  }
+
+  .form {
+    width: 50%;
+  }
+
+  .image {
+    width: 50%;
+  }
+
+  .image img {
+    height: 700px;
+    object-fit: cover;
+  }
+}

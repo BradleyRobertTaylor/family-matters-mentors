@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  /* scroll-padding: 5rem; */
+}
+
+body {
+  background-image: url(../public/images/sirisvisual-Qh6yUFl7P5E-unsplash.jpg);
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+:root {
+  --primary-blue: #025373;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.error {
+  color: red;
+}

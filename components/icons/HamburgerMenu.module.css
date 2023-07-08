@@ -1,0 +1,27 @@
+.hamburger-button {
+  display: block;
+  background: transparent;
+  border: none;
+  /* border: 2px solid black; */
+  /* border-radius: 50%; */
+  padding: 0;
+  padding-inline: 0.2rem;
+  aspect-ratio: 1;
+  fill: white;
+}
+
+.hamburger-button svg {
+  width: 40px;
+}
+
+/* @media (min-width: 850px) { */
+/*   .hamburger-button { */
+/*     fill: var(--primary-blue); */
+/*   } */
+/* } */
+
+@media (min-width: 1440px) {
+  .hamburger-button {
+    display: none;
+  }
+}

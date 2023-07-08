@@ -1,0 +1,16 @@
+.social-link-wrapper {
+  display: flex;
+  gap: 15px;
+}
+
+.social-link-wrapper svg {
+  width: 30px;
+  fill: white;
+}
+
+.social-link-wrapper svg:hover {
+  fill: #3d9abf;
+}
+
+@media (min-width: 1000px) {
+}

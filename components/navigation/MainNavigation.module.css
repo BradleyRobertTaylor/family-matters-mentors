@@ -1,0 +1,40 @@
+.main-navigation {
+  display: none;
+}
+
+.main-navigation-drawer-nav {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.drawer-backdrop {
+  display: block;
+}
+
+.main-navigation-social-links {
+  display: none;
+}
+
+@media (min-width: 1440px) {
+  .main-navigation {
+    display: flex;
+    gap: 4em;
+    align-items: center;
+  }
+
+  .main-navigation-social-links {
+    display: flex;
+  }
+
+  .drawer-backdrop {
+    display: none;
+  }
+
+  .main-navigation-drawer-nav {
+    display: none;
+  }
+}

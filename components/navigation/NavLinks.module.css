@@ -1,0 +1,31 @@
+.nav-links {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.nav-links li {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 1440px) {
+  .nav-links {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    gap: 3em;
+    word-wrap: no-wrap;
+    color: white;
+  }
+
+  .nav-links li {
+    margin-bottom: 0;
+  }
+
+  .nav-links li:hover {
+    color: #3d9abf;
+  }
+}

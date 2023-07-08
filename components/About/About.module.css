@@ -1,0 +1,102 @@
+.section {
+  background: white;
+}
+
+.about-section {
+  position: relative;
+  /* padding: 10em 2em 0em; */
+  padding: 36px 36px;
+  color: var(--primary-blue);
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* gap: 1rem; */
+  margin-inline: auto;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-section img {
+  /* width: 50%; */
+  object-fit: cover;
+  /* padding: 36px; */
+}
+
+.about-section p {
+  margin-bottom: 1rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 200;
+  padding-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+.signature-logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.jai-institute {
+  width: 150px;
+}
+
+.headshot-image {
+  float: left;
+  margin: 1em 2em 1.5em 0;
+}
+
+.top-section {
+  margin-bottom: 36px;
+}
+
+.introduction {
+  font-size: 3rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.job-title {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.name,
+.business-name {
+  font-weight: 600;
+}
+
+.outro {
+  font-style: italic;
+}
+
+.name {
+  font-size: 2.3rem;
+}
+
+/* .signature-column { */
+/*   display: flex; */
+/*   flex-direction: column; */
+/* } */
+
+.signature-column .business-name {
+  margin-bottom: 0;
+}
+
+@media (min-width: 800px) {
+  .bottom-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bottom-section img {
+    width: 50%;
+    margin-inline: auto;
+    padding: 36px;
+  }
+}

@@ -1,0 +1,96 @@
+.footer-section {
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  color: var(--primary-blue);
+  /* background-image: url(../../public/images/sirisvisual-Qh6yUFl7P5E-unsplash.jpg); */
+  /* background-size: cover; */
+}
+
+.newsletter-signup {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: center;
+  gap: 2rem;
+  max-width: 470px;
+  margin-inline: auto;
+}
+
+.newsletter-signup__heading {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.newsletter-signup__message {
+  font-size: 0.875rem;
+}
+
+.newsletter-signup form {
+  display: flex;
+  border: none;
+  border-radius: 5px;
+}
+
+.email-field {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  background: white;
+}
+
+.email-field:focus {
+  border: none;
+}
+
+.newsletter-signup button[type="submit"] {
+  background: white;
+  border: none;
+  padding: 0;
+  padding-right: 12px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.footer-nav__list {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-inline: auto;
+  padding: 0;
+  columns: 2;
+}
+
+.footer-nav li {
+  margin-bottom: 0.4rem;
+}
+
+@media (min-width: 700px) {
+  .newsletter-signup {
+    max-width: 550px;
+  }
+
+  .newsletter-signup__heading {
+    font-size: 1.75rem;
+  }
+
+  .newsletter-signup__message {
+    font-size: 1rem;
+  }
+
+  .footer-nav__list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 70%;
+  }
+}
